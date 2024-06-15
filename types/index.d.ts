@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-export interface ReCaptchaOptions {
+export interface ReCaptchaInstance {
   /**
    * Toggles badge element visibility (v3)
    */
@@ -30,13 +30,6 @@ export interface ReCaptchaOptions {
    * Version
    */
   version: number
-}
-
-export interface ReCaptchaInstance {
-  /**
-   * Options
-   */
-  options: ReCaptchaOptions
 
   /**
    * Destroy ReCaptcha
